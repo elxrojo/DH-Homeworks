@@ -1,0 +1,120 @@
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #222222;
+    color: aliceblue;
+}
+
+#espacioheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+    align-items: center;
+}
+
+#lista li{
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#lista{
+    word-spacing: 10px;
+}
+
+#logocompleto{
+    display: flex;
+    align-items:center;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#logo1{
+    margin: 0px 0px 0px 5px;
+    color: green;
+}
+.textorojo{
+    color: red;
+}
+
+#textobanner{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px;
+}
+
+#EspacioTarjetas{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E5E5E5;
+}
+
+#TarjetaBanner{
+    background-image: url(../img/delivery.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 50px 0px;
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    justify-items: center;
+}
+
+#TarjetaRanking{
+    position :relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin: 50px 0px 50px 0px;
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    justify-items: center;
+}
+
+#TarjetaRanking img{
+    position: absolute;
+    left: 325px;
+    top: 125px;
+    width: 92px;
+}
+
+#TarjetaRanking h1{
+    text-align: center;
+    margin: 25px;
+}
+
+#TarjetaRanking ol, #TarjetaRanking h2{
+    padding: 5px 50px ;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #222222;
+    color: aliceblue;
+    padding: 10px  20px ;
+    line-height: 30px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+#lista2{
+    display: flex;
+}
+
+#logocompleto2{
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+}

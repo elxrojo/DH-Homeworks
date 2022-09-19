@@ -1,0 +1,299 @@
+*{
+    font-family: "Be Vietnam Pro";
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+h1,h2,h3{
+    color: #232C50;
+}
+
+/* Cabecera */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#options{
+    display: flex;
+    width:50%;
+    justify-content:space-around;
+}
+#startbuttom{
+    background-color: #F3603B;
+    color: white;
+    width: 7rem;
+    height: 2.8rem;
+    border-radius: 3.1rem;
+    border: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+#startbuttom:hover{
+    transition: 0.5s;
+    background-color:#df4c27;
+    width: 6.8rem;
+    height: 2.6rem;
+    box-shadow: none;
+}
+#menu{
+    display: none;
+}
+#boxmenu{
+    display: none;
+}
+/* Fin cabecera */
+
+
+/* Inicio home*/
+.space{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#boxhometext{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 5%;
+}
+#boxhomebigtext{
+    font-size: 35px;
+}
+#boxhomesmalltext{
+    font-size:20px;
+    margin: 20px 0px;
+    width: 70%;
+    line-height: 30px;
+}
+#boxhomeimg{
+    width: 40%;
+}
+#boxhomeimg img{
+    width: 90%;
+    margin: 5% ;
+}
+/* fin home*/
+
+/* seccion informacion */
+section #specificspace{
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+#boxinfo1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-st    art;
+    width: 450px;
+    margin: 15px;
+    margin: 100px 0px;
+}
+#boxinfobigtext{
+    font-size: 25px;
+    margin: 10px 0px;
+}
+#boxinfosmalltext{
+    width: 22rem;
+    margin: 10px 0px 0px 0px;
+}
+
+
+.point{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 500px;
+    margin: 0px 0px 40px 0px;
+}
+.pointop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 4rem;
+    height: 2.5rem;
+    background-color: #F3603B;
+    color: white;
+    font-weight: bold;
+    margin: 0px 25px 0px 0px;
+}
+.pointdown{
+    width: 95%;
+    padding: 10px 0px 0px 90px;
+    color: rgba(179, 178, 183, 1);
+}
+/* fin informacion */
+
+
+/* testimonios */
+#space3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#space3 h2{
+    font-size: 2.5rem;
+}
+
+#spacetestimony{
+    display: flex;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    margin: 80px 0px;
+    background-color: rgba(250, 250, 250, 1);
+}
+.img{
+    width: 70px;
+}
+.textcards{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    color: grey;
+    align-items: center;
+    text-align: center;
+}
+.textcards h3{
+    margin: 10px 0px;
+}
+.textcards p{
+    margin: 10px 0px;
+    line-height: 25px;
+}
+.cardcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -30px;
+}
+/* Fin testimonios */
+
+
+/* inicio banner */
+#footer1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3603B;
+    margin: 150px 0px 0px 0px;
+    padding: 50px 80px;
+}
+#footer1 h3{
+    color: white;
+    font-size: 30px;
+    width: 400px;
+}
+#startbuttom2{
+    background-color: white;
+    color:#F3603B;
+    width: 7rem;
+    height: 2.8rem;
+    border-radius: 3.1rem;
+    border: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+#startbuttom2:hover{
+    transition: 0.5s;
+    background-color:#dadada;
+    width: 6.8rem;
+    height: 2.6rem;
+    color:#a4381c;
+}
+/* fin banner */
+
+
+/* Inicio pie de pagina */
+#footer2{
+    background-color: rgba(30, 30, 38, 1);
+}
+
+#space4boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 50px 0px 50px;
+    height: 150px;
+}
+#boxspace1{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content:space-between;
+    align-items: center;
+}
+#social{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+}
+#footoptions{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+}
+#footoptions1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 80%;
+}
+#footoptions2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+}
+#footoptions2 a, #footoptions1 a{
+    color: white;
+    text-decoration: none;
+}
+#spaceinput{
+    height: 2rem;
+    border: none;
+    width: 10rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10vh;
+}
+#buttominput{
+    background-color: #F3603B;
+    color: white;
+    width: 4rem;
+    height: 3rem;
+    border-radius: 3.1rem;
+    border: none;
+    margin: 0px 0px 0px 4px;
+}
+#copyright{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin: 0rem 3rem;
+    padding: 0rem 0rem 1rem 0rem;
+    position: relative;
+    top: -30px;
+}
+/* Fin pie de pagina*/

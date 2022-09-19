@@ -1,0 +1,152 @@
+@media (max-width:390px){
+
+    /* inicio cabecera */
+    nav{
+        padding: 6vh 5vh;
+    }
+    #options{
+        display: none;
+    }
+    nav #startbuttom{
+        display: none;
+    }
+    #boxmenu{
+        display: flex;
+    }
+    #menu{
+        display: flex;
+    }
+/* Fin cabecera */
+
+
+/* inicio home */
+    .space{
+        flex-direction: column-reverse;
+        padding: 0%;
+        align-items: center;
+        align-content: center;
+    }
+    #boxhometext{
+        width: 95%;
+        margin: 5%;
+        justify-content: center;
+        align-items: center;
+        color: gray;
+    }
+    #boxhomebigtext{
+        text-align: center;
+        font-size: 23px;
+    }
+    #boxhomesmalltext{
+        text-align: center;
+        font-size: 15px;
+        width: 90%;
+        line-height: 30px;
+    }
+    #boxhomeimg{
+        width: 90%;
+    }
+/* fin home */
+
+/* inicio informacion */
+    #specificspace{
+        flex-direction: column;
+    }
+    #boxinfo1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 50px 0px;
+        align-items: center;
+    }
+    #boxinfobigtext{
+        text-align: center;
+        font-size: 19px;
+        width: 80%;
+    }
+    #boxinfosmalltext{
+        text-align: center;
+        color: grey;
+        line-height: 30px;
+        width: 90%;
+    }
+
+    .point{
+        width: 100%;
+    }
+    .number{
+        margin: 5px;
+    }
+    .pointop h3{
+        font-size: 15px;
+    }
+    .pointop{
+        background-color: rgba(255,240,235,255);
+    }
+    .pointdown{
+        padding: 15px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+/* fin informacion */
+
+
+/* Inicio testimonios */
+    #space3 h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    #hidecard{
+        display: none;
+    }
+    .textcards{
+        width: 100%;
+    }
+    .textcards p{
+        width: 65%;
+    }
+/* Fin testimonios */
+
+/* Inicio banner */
+    #footer1{
+        justify-content: center;
+        text-align: center;
+        padding: 80px 30px;
+        margin: 50px 0px 0px 0px;
+    }
+    #footer1 h3{
+        font-size: 37px;
+        margin: 0px 0px 30px 0px;
+    }
+/* Fin banner */
+
+/* Inicio pie de pagina */
+    #space4boxes{
+        height: 100%;
+        padding: 40px;
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+    #boxspace1{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100px;
+        margin: 30px 0px;
+    }
+    #footoptions{
+        height: 200px;
+        width: 100%;
+        margin: 50px 0px 0px 0px;
+    }
+    #social img{
+        width: 35px;
+    }
+    #copyright{
+        color: grey;
+    }
+    #form{
+        display: flex;
+        justify-content: center;
+    }
+    /* Fin pie de pagina */
+}

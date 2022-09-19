@@ -1,0 +1,415 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto;
+}
+
+
+#extremo{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: #222222;
+    color: white;
+    padding: 5px 75px;
+    font-size: 10px;
+}
+
+#extremo div{
+    display: flex;
+}
+
+#navegador{
+    display: flex;
+    background-color: #F0A83E;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#menu{
+    display:none;
+}
+
+#navegador div{
+    display: flex;
+}
+
+.option{
+    padding: 5px 15px;
+    font-size: 13px;
+    text-indent: 5px;
+}
+
+#banner{
+    display: flex;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#banner span{
+    display: flex;
+}
+
+
+#cajatexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5vh;
+}
+
+#bannertext1{
+    display: flex;
+    font-size: 36px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#bannertext2{
+    display: flex;
+    font-size: 16px;
+}
+
+#bannertext3{
+    display: flex;
+    font-size: 16px;
+    color: white;
+    background-color: #F0A83E;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+#bannertext1, #bannertext2, #bannertext3{
+    margin: 10px 0px;
+}
+
+#anunciado{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2vh 0vh;
+    gap:5px;
+}
+
+#opciones{
+    word-spacing: 5px;
+    color: #666666;
+}
+
+#espacioproductos{
+    display: flex;
+    margin: 25px 25px 50px 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FBFAF6;
+    padding: 0px 0px 10px 0px;
+    margin: 10px;
+}
+
+.Nombre{
+    color: #3C2313;
+    font-weight: bold;
+}
+
+.precio{
+    color: #F0A83E;
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 50px 0px;
+}
+
+
+#Contact{
+    display: flex;
+
+}
+
+#spacesuscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formspace{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.camps{
+    background-color: #3C2313;
+    width: 320px;
+    margin: 5px;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+#camp{
+    background-color: #3C2313;
+    width: 360px;
+    margin: 5px;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.formcamp textarea{
+    max-width: 320px;
+    min-width: 320px;
+    max-height: 100px;
+}
+
+
+.camps::placeholder{
+    color: white;
+}
+
+.camps:focus{
+    border: 5px #F0A83E solid;
+    transition: 0.5s;
+}
+
+#camp:focus{
+    border: 5px #F0A83E solid;
+    transition: 0.5s;
+}
+
+#spacebutton{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin: 30px 10px;
+}
+
+#button1, #button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 22px;
+    color: white;
+    font-size: 25px;
+}
+#button1{
+    background-color: #8A8787;
+}
+#button2{
+    background-color: #F0A83E;
+}
+
+#button1:hover{
+    background-color: #525050;
+}
+#button2:hover{
+    background-color: #b8812e;
+}
+
+
+
+
+
+
+
+
+
+
+#suscripcion{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    background-color: #F0A83E;
+    padding: 10px;
+}
+
+#novedades{
+    display: flex;
+    justify-content: center;
+}
+
+#novedades span{
+    margin: 0px 7px ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#campsuscribe{
+    background-color: white;
+    color: #8A8787;
+    border-radius: 18px;
+    padding: 10px;
+    border: 0px;
+    padding: 15px;
+    min-width: 250px;
+}
+
+#boxsubs{
+    display: flex;
+}
+
+#buttomsub{
+    background-color: #3C2313;
+    color: white;
+    border: none;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 18px;
+    font-weight: bold;
+}
+
+#buttomsub:hover{
+    background-color: #29180d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#espaciofooter{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0px 70px;
+    background-color: #3C2313;
+    color: white;
+}
+
+#spaceinfo{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px;
+}
+
+.smallspaceinfo{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+} 
+
+.textinfo{
+    padding: 0px 10px;
+}
+
+.textinfo p{
+    color: #8A8787;
+}
+
+#extremoinf{
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+    color: white;
+    padding: 5px 75px;
+    font-size: 10px;
+}
+
+@media (max-width: 640px){
+    
+    #espaciofooter{
+        flex-direction: column;
+    }
+
+    .smallspaceinfo{
+        margin: px 0px;
+    }
+
+    #logofooter{
+        margin: 30px 0px 0px 0px;
+    }
+
+    #cajatexto{
+        align-items: flex-end;
+    }
+
+    #bannertext1{
+        font-size: 20px;
+        padding: 10px 25px;
+        text-align: center;
+    }
+
+    #banner{
+        background-position: left;
+    }
+
+    #extremo{
+        padding: 5px;
+    }
+
+    #campsuscribe{
+        min-width: 170px;
+    }
+
+    #boxsubs{
+        margin: 0px;
+    }
+
+    #novedades span{
+        font-size: 15px;
+    }
+    #suscripcion{
+        background-color: #F0A83E;
+        padding: 5px;
+    }
+
+    .formcamp textarea{
+        max-width: 250px;
+        min-width: 250px;
+    }
+
+    #camp{
+        width: 290px;
+    }
+
+    .camps{
+        width: 250px;
+    }
+    
+
+
+
+
+}
+
+@media (max-width: 800px){
+    #suscripcion{
+        flex-direction: column;
+    }
+
+    #novedades, #boxsubs{
+        margin: 10px;
+    }
+}

@@ -1,0 +1,186 @@
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ ls
+arcgivo6.pdf  Archivo4.js  Archivo5.txt  README.md
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ nano Arc
+arcgivo6.pdf  Archivo4.js   Archivo5.txt
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ nano Archivo6.pdf
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ nano Archivo5.txt
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ nano archivo6.pdf
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ nano Archivo4.js
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git add .
+warning: LF will be replaced by CRLF in Archivo4.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Archivo5.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Archivo6.pdf.
+The file will have its original line endings in your working directory
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Archivo4.js
+        new file:   Archivo5.txt
+        new file:   Archivo6.pdf
+        new file:   arcgivo6.pdf
+
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git commit
+Aborting commit due to empty commit message.
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git commit -m "Archivos 4,5 y 6"
+[main 630728b] Archivos 4,5 y 6
+ 4 files changed, 6 insertions(+)
+ create mode 100644 Archivo4.js
+ create mode 100644 Archivo5.txt
+ create mode 100644 Archivo6.pdf
+ create mode 100644 arcgivo6.pdf
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git push origin main
+To https://github.com/elxrojo/Intento.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/elxrojo/Intento.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git pull origin main
+From https://github.com/elxrojo/Intento
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ archivo1.txt | 1 +
+ archivo2.js  | 1 +
+ archivo3.png | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 archivo1.txt
+ create mode 100644 archivo2.js
+ create mode 100644 archivo3.png
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 726 bytes | 242.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/elxrojo/Intento.git
+   d8ea0f4..cb10961  main -> main
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ nano archivo3.png
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git add .
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git commit -m "Cambio a Archivo3"
+[main 5ba6881] Cambio a Archivo3
+ 1 file changed, 1 insertion(+)
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 279 bytes | 139.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/elxrojo/Intento.git
+   cb10961..5ba6881  main -> main
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git pull origin main
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 2), reused 5 (delta 2), pack-reused 0
+Unpacking objects: 100% (5/5), 619 bytes | 9.00 KiB/s, done.
+From https://github.com/elxrojo/Intento
+ * branch            main       -> FETCH_HEAD
+   5ba6881..d77a505  main       -> origin/main
+Updating 5ba6881..d77a505
+Fast-forward
+ archivo1.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ nano archivo1.txt
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ nano archivo5.txr
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ nano Archivo5.txt
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git add .
+warning: LF will be replaced by CRLF in Archivo5.txt.
+The file will have its original line endings in your working directory
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git commit -m "Cambio en archivo 5 (el peor)"
+[main fde3ddf] Cambio en archivo 5 (el peor)
+ 1 file changed, 2 insertions(+)
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (3/3), 316 bytes | 10.00 KiB/s, done.
+From https://github.com/elxrojo/Intento
+ * branch            main       -> FETCH_HEAD
+   d77a505..2262912  main       -> origin/main
+Auto-merging Archivo5.txt
+Merge made by the 'ort' strategy.
+ Archivo5.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ nano Archivo5.txt
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+elxro@DESKTOP-BON77OT MINGW64 ~/OneDrive/Escritorio/DH/Introduccion a la informatica/Clase5 (main)
+$ git push origin main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 627 bytes | 89.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/elxrojo/Intento.git
+   2262912..c241e48  main -> main
